@@ -11,3 +11,6 @@ BOM-009,frame,mechanism support frame,pending_measurement,TBD,TBD,Must hold stop
 BOM-010,hardware,adjusters pivots bushings springs and fasteners,pending_measurement,TBD,TBD,Hardware class only; no sizes or suppliers specified.
 BOM-011,finish,surface protection and service markings,concept_only,TBD,TBD,Future planning item only.
 BOM-012,validation,single-string stop-action test rig,pending_measurement,TBD,TBD,Recommended before any full-scale build packet promotion.
+BOM-013,ergonomics,player console mockup,pending_measurement,TBD,TBD,Hand and foot interface layout must be tested before action geometry is fixed.
+BOM-014,safety,string break and pinch-zone guards,pending_measurement,TBD,TBD,Safety elements require string path and linkage routing evidence.
+BOM-015,service,adjustment and inspection access,pending_measurement,TBD,TBD,Service envelope remains open until the mechanism family is selected.
