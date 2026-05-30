@@ -1,10 +1,10 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 # Octobass
 
-Status: L1 concept packet
+Status: L3-candidate
 
-Authority: this repository is a V5 concept study for private review. It is not
-fabrication authority, not a measured acoustic packet, and not a tuning plan.
+Authority: this repository is a V5 L3-candidate engineering packet for private
+review. It is not fabrication authority, not a measured acoustic packet, and not a tuning plan.
 All build-critical dimensions, forces, string data, linkage geometry, body
 structure, and stop positions are pending measurement or expert review.
 
@@ -18,18 +18,24 @@ stops against the strings while the player bows the instrument.
 
 - [Design study](design.md)
 - [Estimated BOM](bom.csv)
+- [Measurement and validation protocol](measurement-and-validation-protocol.md)
+- [Tolerance and fit analysis](tolerance-and-fit-analysis.md)
+- [Assembly sequence](assembly-sequence.md)
+- [Subsystem interface spec](subsystem-interface-spec.md)
+- [Symbolic parametric design table](parametric-design.csv)
+- [Risk FMEA](risk-FMEA.md)
 - [Decision record](decision-record.md)
 - [Visual output register](visual-output-register.csv)
 - [CAD/MCP provenance log](cad/mcp-session-log.md)
 
-## Known L1 Boundaries
+## Known L3-candidate Boundaries
 
 - No CAD, DXF, or measured drawings exist in this packet.
 - No tuning, string gauges, scale length, body outline, plate thickness, force,
   or lever-ratio values are claimed.
 - `3.5 m` and `three-string` are prompt-level concept constraints only.
-- Any future L2 packet must start with reference research, ergonomic mockups,
-  linkage force tests, and a string/stop measurement plan.
+- Any future L3 promotion must start with reference research, ergonomic mockups,
+  linkage force tests, string/stop measurement, and reviewed drawings.
 
 ## License
 

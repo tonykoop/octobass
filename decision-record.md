@@ -3,8 +3,8 @@
 
 ## Decisions
 
-- Readiness is `L1 concept packet`; the repo is intentionally not a shop
-  packet.
+- Readiness is `L3-candidate`; the repo is intentionally not a fabrication
+  authority packet.
 - Treat the prompt's `3.5 m` and `three-string` statements as concept
   constraints, not measured fabrication dimensions.
 - Center the study on the string-stopping mechanism rather than body styling.
@@ -12,6 +12,10 @@
   `pending_measurement`.
 - Do not create CAD, DXF, tuning tables, acoustic predictions, or force
   values in this round.
+- Deepen the packet by naming validation protocols, interfaces, tolerances,
+  assembly sequence, symbolic relationships, and FMEA risks.
+- Keep every authority-bearing artifact at `concept_only` or
+  `pending_measurement`.
 
 ## Open Questions
 
@@ -28,12 +32,26 @@
 - How much backlash and actuation force can a performer tolerate?
 - What single-string rig can answer the mechanism questions before a full body
   is designed?
+- Which stops require foot actuation versus hand levers?
+- What alignment datum should control the stop mechanism: string centerline,
+  bridge/tailpiece reference, neck plane, or mechanism frame?
+- Which service operations must be possible with strings under reduced tension?
+- What minimum evidence should promote a single stop position from estimate to
+  fabrication authority?
 
 ## Promotion Gates
 
-- L2 requires reference research, a parameter table, a measured or cited
-  geometry source, and a prototype plan for the stopping mechanism.
 - L3 requires reviewed CAD or measured drawings plus validated string, force,
   and stop-position evidence.
 - L4 requires physical build data, tuning or response measurements, and
   mechanism durability observations.
+
+## L3-Candidate Deepening Notes
+
+- Added measurement, tolerance, assembly, subsystem-interface, symbolic
+  parametric, and FMEA artifacts.
+- Updated README/design readiness to `L3-candidate`.
+- Added register rows for the new docs with only `concept_only` or
+  `pending_measurement` authority.
+- No measured dimensions, frequencies, tuning values, force values, or CAD/DXF
+  geometry were added.
