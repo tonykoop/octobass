@@ -1,7 +1,7 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 # Octobass
 
-Status: L2 concept / pending-measurement packet
+Status: L3-candidate V5 packet (deepened: protocols, tolerances, assembly, FMEA)...
 
 Authority: this repository is a V5 concept study for private review. It is not
 fabrication authority, not a measured acoustic packet, and not a tuning plan.
