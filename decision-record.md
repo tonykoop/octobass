@@ -3,11 +3,13 @@
 
 ## Decisions
 
-- Readiness is `L1 concept packet`; the repo is intentionally not a shop
-  packet.
-- Treat the prompt's `3.5 m` and `three-string` statements as concept
-  constraints, not measured fabrication dimensions.
+- Readiness is `L2 concept / pending-measurement packet`; the repo is
+  intentionally not a shop packet.
+- Treat the three-string layout as a concept-family constraint, not a measured
+  stringing or tuning plan.
 - Center the study on the string-stopping mechanism rather than body styling.
+- Add a candidate cut-list so each future part class has an explicit evidence
+  gate before fabrication authority is claimed.
 - Keep all visual and material authority at `concept_only` or
   `pending_measurement`.
 - Do not create CAD, DXF, tuning tables, acoustic predictions, or force
@@ -28,11 +30,15 @@
 - How much backlash and actuation force can a performer tolerate?
 - What single-string rig can answer the mechanism questions before a full body
   is designed?
+- What console layout lets the player select stops while maintaining bow
+  control and balance?
+- Which safety guards must be proven on the stop-action rig before a full body
+  is considered?
 
 ## Promotion Gates
 
-- L2 requires reference research, a parameter table, a measured or cited
-  geometry source, and a prototype plan for the stopping mechanism.
+- L2 records subsystem intent, candidate part classes, and pending measurement
+  gates only; it does not authorize fabrication.
 - L3 requires reviewed CAD or measured drawings plus validated string, force,
   and stop-position evidence.
 - L4 requires physical build data, tuning or response measurements, and
