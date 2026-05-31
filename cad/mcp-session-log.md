@@ -19,6 +19,7 @@ concept packet.
 | session_id | tool | input_authority | outputs | role | authority_result | review_status | notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2026-05-30-codex-r7-octobass | none | Round 7 lane prompt only | `README.md`; `design.md`; `bom.csv`; `decision-record.md`; `visual-output-register.csv`; `cad/mcp-session-log.md` | concept_packet_scaffold | concept_only | self_checked | No CAD geometry, DXF coordinates, tuning values, acoustic predictions, pressure values, or mechanism dimensions were generated. |
+| 2026-05-30-r8-wolfram | Codex local edit | Existing L2 packet and Round 8 Wolfram authoring contract | `octobass-starter.wl`; `wolfram/octobass-wolfram-model.wl`; `visual-output-register.csv`; `cad/mcp-session-log.md` | wolfram_reference_model | reference_only | self_checked | Source authored by hand. No MCP, Wolfram Desktop, CAD, rendering, or fabrication-authority session was run; every physical number in the model is an estimate placeholder pending measurement. |
 
 ## Next Provenance Requirement
 

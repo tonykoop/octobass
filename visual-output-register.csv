@@ -5,3 +5,5 @@ BOM-001,bom.csv,measurement_template,measurement_template,pending_measurement,de
 CUT-001,cut-list.csv,measurement_template,measurement_template,pending_measurement,design.md,none,false,"Candidate part classes only; no dimensions, materials, or toolpaths are specified."
 DEC-001,decision-record.md,render_preview,concept,concept_only,README.md,none,false,"Decision and open-question log; not fabrication authority."
 PROV-001,cad/mcp-session-log.md,render_preview,concept,concept_only,README.md,none,false,"Provenance stub records qmd results and confirms no CAD or MCP session ran."
+WLF-START-001,octobass-starter.wl,source_code,reference,reference_only,wolfram/octobass-wolfram-model.wl,none,false,"Thin Wolfram entry point only; pending measurement, not fabrication authority."
+WLF-MODEL-001,wolfram/octobass-wolfram-model.wl,source_code,reference,reference_only,parametric-design.csv,none,false,"Parametric symbolic Wolfram model with estimate placeholders only; pending measurement, not fabrication authority."
