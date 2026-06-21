@@ -90,7 +90,7 @@ modelSummary = <|
    "measurementStatus" -> "All numerical inputs are estimates pending measurement; not fabrication authority."
    |>;
 
-Manipulate[
+octobassExplorer = Manipulate[
  Module[
   {
    scaleLength,
