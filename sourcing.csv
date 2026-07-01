@@ -1,0 +1,9 @@
+<!-- spec-first sourcing; no released dimensions, no verified prices; pending_measurement -->
+item_id,category,spec_basis,candidate_source_class,authority,status,notes
+SRC-BODY,body,giant bowed bass body + soundboard stock,tonewood/structural timber supplier,pending_measurement,spec_pending,"Overall form/scale concept only; no dimensions or materials."
+SRC-STRINGS,strings,three large bowed strings,specialist bass/contrabass string maker,pending_measurement,spec_pending,"Count prompt-supplied (3); tuning, gauge, length, tension not specified."
+SRC-BRIDGE,bridge,oversized bridge assembly stock,luthier/fabrication,pending_measurement,spec_pending,"Geometry requires string plan + acoustic review."
+SRC-FRAME,frame,mechanism support frame stock,steel/timber supplier,pending_measurement,spec_pending,"Frame holds stop geometry stable; deflection ratio pending."
+SRC-STOP,stopping_mechanism,lever bank, pedal bank, remote tangents/padded stops,mechanical fabrication,pending_measurement,spec_pending,"Actuator family; count, throw, contact material pending tests."
+SRC-LINKAGE,linkage,cables/rods/bell cranks transmission,mechanical hardware,pending_measurement,spec_pending,"Transmission choice requires backlash/friction/return tests."
+SRC-FITTINGS,neck_and_scroll,extended neck/support head + tuning hardware,fabrication,pending_measurement,spec_pending,"Layout depends on scale length + string load."

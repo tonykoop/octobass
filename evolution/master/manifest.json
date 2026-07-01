@@ -1,0 +1,34 @@
+{
+  "product": "octobass",
+  "pipeline": "studiopipeline:evolution-pipeline",
+  "stage": "0-intake",
+  "master_revision": "rev-A (pre-commit intake, 2026-07-01)",
+  "generated": "2026-07-01",
+  "cad_masters": [
+    {
+      "path": "cad/octobass.scad",
+      "format": "openscad-source",
+      "sha256": "1fdaf1df3dc5fee96048fb65a323041e89da5cee883449af8aadd87022949d94",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Parametric structural-envelope scaffold; symbolic relationships as formulas, render-only placeholder leaf values (packet is non-dimensional)."
+    },
+    {
+      "path": "parametric-design.csv",
+      "format": "design-table",
+      "sha256": "008e0a2f07b2cf24b1b32c900e6f600ae55f51ac343f273535be60d684f4bd2b",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Symbolic relationship table; every parameter pending_measurement — no absolute value assigned."
+    },
+    {
+      "path": "wolfram/octobass-wolfram-model.wl",
+      "format": "wolfram-source",
+      "sha256": "25d190a6b1af09e76aaffc7d7b54dbaf085629350ae3350aba4627050d84b70c",
+      "authority": "reference_only",
+      "lossy": false,
+      "notes": "Source-only (not executed); estimate placeholders; L2 evidence."
+    }
+  ],
+  "notes": "OpenSCAD envelope scaffold + symbolic design table are the current masters; no STEP export (SolidWorks export is Windows-side, out of scope this pass). Packet is deliberately non-dimensional — no fabrication authority. Gate A (Alpha workspace compile) NOT yet run."
+}
