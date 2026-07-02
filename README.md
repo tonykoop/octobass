@@ -1,7 +1,13 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 # Octobass
 
-Status: L3-candidate V5 packet (deepened: protocols, tolerances, assembly, FMEA)...
+**Status:** L2 V5 build-packet candidate
+
+Deepened toward L3 (protocols, tolerances, assembly, FMEA — see
+`measurement-and-validation-protocol.md`, `tolerance-and-fit-analysis.md`,
+`assembly-sequence.md`, `risk-FMEA.md`) but not promoted: L3 requires
+fabrication-authority CAD/DXF and validator evidence, and this packet is
+deliberately non-dimensional, so it stays L2 V5 build-packet candidate.
 
 Authority: this repository is a V5 concept study for private review. It is not
 fabrication authority, not a measured acoustic packet, and not a tuning plan.
@@ -24,6 +30,9 @@ tuning, force, or linkage values.
 - [Decision record](decision-record.md)
 - [Visual output register](visual-output-register.csv)
 - [CAD/MCP provenance log](cad/mcp-session-log.md)
+- [Sourcing](sourcing.csv), [Validation gates](validation.csv), [Risks](risks.md), [Drawing brief](drawing-brief.md) — baseline shop-packet scaffolds (spec-first, non-dimensional, `pending_measurement`).
+- [CAD envelope master](cad/octobass.scad) — parametric structural-envelope scaffold (symbolic relationships as formulas, render-only placeholder values); authority `pending_measurement`, not fabrication authority.
+- [Evolution intake](evolution/) — evolution-pipeline Stage 0: master manifest, design-intent, and revision register (Gate A not yet run).
 
 ## Known L2 Boundaries
 

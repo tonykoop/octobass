@@ -1,0 +1,10 @@
+<!-- measurement gates; acceptance bases qualitative until a rubric + measured targets exist; pending_measurement -->
+gate_id,subsystem,measurement,acceptance_basis,authority,status,notes
+VAL-001,structure,overall height + frame envelope,player can bow + operate stops safely,pending_measurement,gate_open,"overall_height_concept; parametric-design.csv (prompt scale constraint only)."
+VAL-002,strings,scale length + string plan,measured/reviewed scale,pending_measurement,gate_open,"scale_length: no absolute value assigned."
+VAL-003,stop_system,stop position ratio,stop_position/scale_length at intended pitches,pending_measurement,gate_open,"stop_position_ratio; symbolic ratio only, no tuning."
+VAL-004,stop_system,stop contact travel,clearance + required contact displacement,pending_measurement,gate_open,"stop_contact_travel; contact-rig measurement."
+VAL-005,linkage,linkage ratio + lost motion,stop output vs player input; backlash within budget,pending_measurement,gate_open,"linkage_ratio, lost_motion_budget; linkage-mule measurement."
+VAL-006,performer,bow clearance envelope,bow swept volume clears mechanism envelope,pending_measurement,gate_open,"bow_clearance_envelope; ergonomic/posture mockup."
+VAL-007,structure,frame deflection under string/stop load,deflection within reference ratio,pending_measurement,gate_open,"frame_deflection_ratio; frame mockup deflection measurement."
+VAL-008,service,service access clearance,tool access avoids obstructed mechanism zones,pending_measurement,gate_open,"service_access_clearance; service mockup review."
